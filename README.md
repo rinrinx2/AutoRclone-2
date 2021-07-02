@@ -19,7 +19,7 @@ Adım 1. Kodları sanal sunucunuza kopyalayın
  ```
  Rclone kurulumu bittikten sonra bu komutu çalıştırıp repoyu çekelim
  ```
- sudo git clone https://github.com/puffytr/AutoRclone AutoRclone && cd AutoRclone && sudo pip3 install -r requirements.txt
+ sudo git clone https://github.com/overlocustr/AutoRclone/ AutoRclone && cd AutoRclone && sudo pip3 install -r requirements.txt
  ```
 **Windows İçin**
 ---------------------------------
@@ -114,5 +114,5 @@ Adım 7. Otomatikleştirme
  Basit bir işlem yapacağız.<br />
  `crontab -e` yazıyoruz ve crontab ımıza ulaşıyoruz.<br />
  **NOT: Crontab ı ilk defa açıyorsanız hangi editör ü kullanmak istediğinizi sorar. Tercihim `nano` kullanmanız kullanımı basit.**<br />
- en alt satıra `0 */1 * * * /usr/bin/python3 /root/autorclone/autorclone.py` yazıyoruz ve bitiyor.
+ en alt satıra `0 */1 * * * /usr/bin/python3 /root/AutoRclone/autorclone.py` yazıyoruz ve bitiyor.
  **NOT: klasörün yeri değişik ise klasörün ismini vs. değiştirin.**
